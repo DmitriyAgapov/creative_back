@@ -21,7 +21,7 @@
     "Description": {
       "type": "customField",
       "options": {
-        "preset": "blockBaloon"
+        "preset": "toolbar"
       },
       "customField": "plugin::ckeditor5.CKEditor"
     },
