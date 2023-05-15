@@ -3,6 +3,9 @@
   "private": true,
   "version": "0.1.0",
   "description": "A Strapi application",
+  "repository": {
+    "url": "https://github.com/DmitriyAgapov/creative_back.git"
+  },
   "scripts": {
     "develop": "strapi develop",
     "start": "strapi start",
