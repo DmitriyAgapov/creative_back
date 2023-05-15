@@ -1,0 +1,41 @@
+{
+  "collectionName": "components_layout_sections",
+  "info": {
+    "displayName": "Section",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Uptitle": {
+      "type": "string"
+    },
+    "Type": {
+      "type": "enumeration",
+      "enum": [
+        "screen",
+        "pitch",
+        "problem",
+        "solutions",
+        "how-we-work",
+        "what-we-also-do",
+        "technology-stack",
+        "get-started"
+      ]
+    },
+    "Card": {
+      "type": "component",
+      "repeatable": true,
+      "component": "cards.card-default"
+    },
+    "Description": {
+      "type": "customField",
+      "options": {
+        "preset": "toolbar"
+      },
+      "customField": "plugin::ckeditor5.CKEditor"
+    }
+  }
+}

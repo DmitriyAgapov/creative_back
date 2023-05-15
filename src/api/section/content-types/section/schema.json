@@ -1,0 +1,61 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sections",
+  "info": {
+    "singularName": "section",
+    "pluralName": "sections",
+    "displayName": "Section",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Uptitle": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "customField",
+      "options": {
+        "preset": "blockBaloon"
+      },
+      "customField": "plugin::ckeditor5.CKEditor"
+    },
+    "Items": {
+      "type": "dynamiczone",
+      "components": [
+        "cards.card-default",
+        "layout.list-item",
+        "layout.media",
+        "cards.card"
+      ]
+    },
+    "Link": {
+      "type": "component",
+      "repeatable": false,
+      "component": "layout.link"
+    },
+    "page": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::page.page",
+      "inversedBy": "sections"
+    },
+    "Type": {
+      "type": "enumeration",
+      "enum": [
+        "screen",
+        "pitch",
+        "problem",
+        "solutions",
+        "how-we-work",
+        "what-we-also-do",
+        "technology-stack"
+      ]
+    }
+  }
+}
