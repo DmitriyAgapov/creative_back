@@ -1,27 +1,22 @@
 {
   "name": "back",
-  "private": true,
-  "version": "0.1.0",
-  "description": "A Strapi application",
-  "repository": {
-    "url": "https://github.com/DmitriyAgapov/creative_back.git"
-  },
+  "version": "1.0.0",
+  "license": "MIT",
   "scripts": {
     "develop": "strapi develop",
     "start": "strapi start",
     "build": "strapi build",
     "strapi": "strapi"
   },
-  "devDependencies": {},
-
   "dependencies": {
-    "@strapi/strapi": "4.10.5",
-    "@strapi/plugin-users-permissions": "4.10.5",
-    "@strapi/plugin-i18n": "4.10.5",
-    "mysql": "2.18.1",
+    "@_sh/strapi-plugin-ckeditor": "^2.0.4",
     "@strapi/plugin-graphql": "4.8.2",
+    "@strapi/plugin-i18n": "4.8.2",
     "@strapi/plugin-seo": "^1.8.0",
+    "@strapi/plugin-users-permissions": "4.8.2",
+    "@strapi/strapi": "4.8.2",
     "better-sqlite3": "8.0.1",
+    "mysql": "^2.18.1",
     "strapi-bulk-operator": "^0.0.5",
     "strapi-plugin-duplicate-button": "^1.1.7",
     "strapi-plugin-import-export-entries": "^1.19.1",
@@ -30,14 +25,10 @@
     "xlsx": "^0.18.5"
   },
   "author": {
-    "name": "A Strapi developer"
-  },
-  "strapi": {
-    "uuid": "e1f37a72-88f5-4f24-8ecf-33e6552e2282"
+    "name": "Agapov D. pr-web2006@yandex.ru"
   },
   "engines": {
-    "node": ">=14.19.1",
+    "node": ">=14.19.1 <=18.x.x",
     "npm": ">=6.0.0"
-  },
-  "license": "MIT"
+  }
 }
