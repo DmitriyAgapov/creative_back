@@ -31,7 +31,8 @@
         "cards.card-default",
         "layout.list-item",
         "layout.media",
-        "cards.card"
+        "cards.card",
+        "cards.card-team"
       ]
     },
     "Link": {
@@ -54,7 +55,9 @@
         "solutions",
         "how-we-work",
         "what-we-also-do",
-        "technology-stack"
+        "technology-stack",
+        "about-us",
+        "team"
       ]
     }
   }

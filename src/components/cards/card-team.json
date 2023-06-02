@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_cards_card_teams",
+  "info": {
+    "displayName": "CardTeam"
+  },
+  "options": {},
+  "attributes": {
+    "FullName": {
+      "type": "string"
+    },
+    "Position": {
+      "type": "string"
+    }
+  }
+}
