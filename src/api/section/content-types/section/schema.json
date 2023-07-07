@@ -53,12 +53,21 @@
         "pitch",
         "problem",
         "solutions",
+        "solution-page",
         "how-we-work",
         "what-we-also-do",
         "technology-stack",
         "about-us",
         "team"
       ]
+    },
+    "price_period": {
+      "type": "string",
+      "default": "Monthly"
+    },
+    "price": {
+      "type": "integer",
+      "default": 0
     }
   }
 }
